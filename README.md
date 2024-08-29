@@ -1,3 +1,11 @@
+# 0. Repo greetings
+
+Hi there, welcome to my notes on the Azure Databricks and Spark for Data Engineer
+
+This is my first step into cloud services for DE tasks, projects. This repo got all the codes, the notes are in this README.md but not the steps I took to enable the services though. So, if you're here for the steps to navigate the services, this is NOT the place.
+
+Well, without further ado, let's get to the contents/notes I jot down on this course. Enjoy!
+
 # 1. Introduction to Azure Databricks
 
 **TL;DR**: Azure Databricks is a Spark unified data analytics platform that is optimized for Microsoft Azure Cloud
