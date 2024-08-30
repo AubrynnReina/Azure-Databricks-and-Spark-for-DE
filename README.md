@@ -146,3 +146,12 @@ The how:
 - dbutils.secrets.get(scope, key) will yeild the password (only show us REDACTED but trust)
 
 ![Securing_Secrets](./Images/Securing_Secrets.png)
+
+# 7. Mounting Data Lake Container to Databricks
+
+It's a recommended way due to convenience:
+- Accessing files now use file semantics, rather than storage URLs
+- Files are stored in Azure Blob &rarr; All benefits from Azure
+
+
+![Mounting_to_Databricks](./Images/Mounting_to_Databricks.png)
