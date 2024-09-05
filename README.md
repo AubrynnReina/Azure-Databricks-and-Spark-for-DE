@@ -163,3 +163,19 @@ It's a recommended way due to convenience:
 | Syntax | createOrReplaceTempView(*<view_name>*) | createOrReplaceGlobalTempView(*<view_name>*) |
 | Access | *<view_name>* | **global_temp**.*<view_name>* |
 | Scope | Within 1 notebook | Within 1 cluster (multiple notebooks) |
+
+# 9. Data Architecture in Azure Databricks
+
+- Object Storage: Azure Data Lake
+- Metadata Storage (location, schema...): Hive Meta Store
+- Access Tool: Spark SQL
+
+    ![Data_Architecture](./images/Data_Architecture.png)
+
+    | Category | Managed Table | External Table |
+    | -- | -- | -- |
+    | Data | by Spark | by us |
+    | Metadata | by Spark | by Spark |
+    | Deletion | both meta and data is ***gone*** | only meta is ***gone*** |
+
+    ![SQL_Objects](./images/SQL_Objects.png)
