@@ -155,3 +155,11 @@ It's a recommended way due to convenience:
 
 
 ![Mounting_to_Databricks](./Images/Mounting_to_Databricks.png)
+
+# 8. Spark SQL Temp Views
+
+| Category | Local | Global |
+| -- | -- | -- |
+| Syntax | createOrReplaceTempView(*<view_name>*) | createOrReplaceGlobalTempView(*<view_name>*) |
+| Access | *<view_name>* | **global_temp**.*<view_name>* |
+| Scope | Within 1 notebook | Within 1 cluster (multiple notebooks) |
