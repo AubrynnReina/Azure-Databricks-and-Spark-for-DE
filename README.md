@@ -179,3 +179,9 @@ It's a recommended way due to convenience:
     | Deletion | both meta and data is ***gone*** | only meta is ***gone*** |
 
     ![SQL_Objects](./images/SQL_Objects.png)
+
+# 10. Delta Lake Architecture
+
+Basically, Delta Lake is built on the concept of Data Lakehouse, which provides ACID transaction to Data Lake
+
+![Delta_Lake_Architecture](./images/Delta_Lake_Architecture.png)
