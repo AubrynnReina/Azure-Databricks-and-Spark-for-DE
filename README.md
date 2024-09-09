@@ -191,3 +191,9 @@ Basically, Delta Lake is built on the concept of Data Lakehouse, which provides 
 Basically Airflow with more functions, integration with other services and security assurance
 
 ![Azure_Data_Factory_Workflow](./images/Azure_Data_Factory_Workflow.png)
+
+# 12. Azure Unity Catalog for Databricks
+
+In short, a workspace manager + data governace tool
+
+![Unity_Catalog](./images/Unity_Catalog.png)
