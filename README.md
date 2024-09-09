@@ -185,3 +185,9 @@ It's a recommended way due to convenience:
 Basically, Delta Lake is built on the concept of Data Lakehouse, which provides ACID transaction to Data Lake
 
 ![Delta_Lake_Architecture](./images/Delta_Lake_Architecture.png)
+
+# 11. Azure Data Factory
+
+Basically Airflow with more functions, integration with other services and security assurance
+
+![Azure_Data_Factory_Workflow](./images/Azure_Data_Factory_Workflow.png)
